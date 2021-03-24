@@ -3,10 +3,6 @@ let currentDayEl = $('#currentDay');
 let currentHour = moment().format("H")
 let plannerEl = $('#planner');
 
-console.log("Current hour is: " + currentHour);
-// console.log(moment(currentHour, "H").format("h"));
-
-
 // JS Variables
 const workHours = [9, 10, 11, 12, 13, 14, 15, 16, 17];
 
@@ -21,12 +17,12 @@ function displayCalendar() {
         let descriptionEl = $('<textarea>')
         let saveBtnEl = $('<button>');
 
-        // console.log("workHours is: " + workHours[i]);
 
         // I need to add classes to the elements
         rowEl.addClass('row time-block');
         hourEl.addClass('hour text-right col-1');
         descriptionEl.addClass('description w-100 p-3 col-10');
+        descriptionEl.attr("data-index", i);
         saveBtnEl.addClass('saveBtn col-1');
 
         // I need to add content to the elements
