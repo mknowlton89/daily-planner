@@ -1,13 +1,14 @@
 // DOM Variables
 let currentDayEl = $('#currentDay');
-let currentHour = moment().format("h")
+let currentHour = moment().format("H")
 let plannerEl = $('#planner');
+
+console.log(currentHour);
+// console.log(moment(currentHour, "H").format("h"));
 
 
 // JS Variables
-const workHours = ['9AM', '10AM', '11AM', '12PM', '1PM', '2PM', '3PM', '4PM', '5PM'];
-
-console.log(workHours[0]);
+const workHours = [9, 10, 11, 12, 13, 14, 15, 16, 17];
 
 // Function Definitions
 function init() {
@@ -23,16 +24,19 @@ function init() {
         let hourEl = $('<p>');
         let descriptionEl = $('<textarea>')
         let saveBtnEl = $('<button>');
-        // let hour = workHours[i];
+        let formattedHour = moment(workHours[i], "H").format("H");
+
+        console.log("Formatted hour is: " + formattedHour);
+        console.log("workHours is: " + workHours[i]);
 
         // I need to add classes to the elements
         rowEl.addClass('row time-block');
         hourEl.addClass('hour text-right col-1');
-        descriptionEl.addClass('past description w-100 p-3 col-10');
+        descriptionEl.addClass('description w-100 p-3 col-10');
         saveBtnEl.addClass('saveBtn col-1');
 
         // I need to add content to the elements
-        hourEl.text(workHours[i]);
+        hourEl.text(moment(workHours[i], "H").format("hA"));
         descriptionEl.text('');
         saveBtnEl.text('💾');
 
@@ -43,10 +47,12 @@ function init() {
         rowEl.append(descriptionEl);
         rowEl.append(saveBtnEl);
 
-        if (currentHour === workHours[i]) {
+        if (currentHour === formattedHour) {
             descriptionEl.addClass('present');
-        } else if (currentHour > workHours[i]) {
+        } else if (currentHour < formattedHour) {
             descriptionEl.addClass('future');
+        } else if (currentHour > formattedHour) {
+            descriptionEl.addClass('past');
         }
     }
 
