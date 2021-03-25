@@ -4,8 +4,12 @@ let currentHour = moment().format("H")
 let plannerEl = $('#planner');
 const saveBtnEl = $('.saveBtn');
 
+
 // JS Variables
 const workHours = [9, 10, 11, 12, 13, 14, 15, 16, 17];
+let calEvents = [' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' '];
+
+console.log(calEvents);
 
 // Function Definitions
 function displayCalendar() {
@@ -60,11 +64,17 @@ function saveCalEvent(event) {
     let btnClicked = $(event.target);
     let sibs = btnClicked.siblings("textarea");
     let entry = sibs.val();
+    let index = btnClicked.data().index;
+    // let index = parseInt(btnClicked.data);
+    // let i = 0;
+    // let entry = "Test"
+    // let index = 0;
 
-    let index = btnClicked.data();
+    console.log(entry, index);
 
-    console.log(entry);
-    console.log(index);
+    calEvents[index] = entry;
+    console.log(calEvents);
+
 }
 
 // // Event Listeners
