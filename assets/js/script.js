@@ -63,16 +63,8 @@ function saveCalEvent(event) {
 
     let index = btnClicked.data();
 
-    // let calVal = btnClicked.sibling('textarea').value;
-
-    // console.log(calVal);
-
     console.log(entry);
     console.log(index);
-
-
-
-    //     // btnClicked.parent('div').remove();
 }
 
 // // Event Listeners
