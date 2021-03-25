@@ -8,4 +8,4 @@ This is a calendar booking app built with jQuery and Moment.js.
 <a href="https://github.com/mknowlton89/daily-planner">Click here to view the GitHub Repo</a>.
 
 # Screenshot of the application
-<img src="" alt="screenshot of the daily-planner">
+<img src="assets/images/Screen Shot 2021-03-25 at 4.56.14 PM.png" alt="screenshot of the daily-planner">

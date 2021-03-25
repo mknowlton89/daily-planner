@@ -51,7 +51,7 @@ This homework is graded based on the following criteria:
 
 * A̶p̶p̶l̶i̶c̶a̶t̶i̶o̶n̶ d̶e̶p̶l̶o̶y̶e̶d̶ a̶t̶ l̶i̶v̶e̶ U̶R̶L̶
 
-* Application loads with no errors
+* A̶p̶p̶l̶i̶c̶a̶t̶i̶o̶n̶ l̶o̶a̶d̶s̶ w̶i̶t̶h̶ n̶o̶ e̶r̶r̶o̶r̶s̶
 
 * A̶p̶p̶l̶i̶c̶a̶t̶i̶o̶n̶ G̶i̶t̶H̶u̶b̶ U̶R̶L̶ s̶u̶b̶m̶i̶t̶t̶e̶d̶
 
@@ -59,21 +59,21 @@ This homework is graded based on the following criteria:
 
 ### Application Quality: 15%
 
-* Application user experience is intuitive and easy to navigate
+* A̶p̶p̶l̶i̶c̶a̶t̶i̶o̶n̶ u̶s̶e̶r̶ e̶x̶p̶e̶r̶i̶e̶n̶c̶e̶ i̶s̶ i̶n̶t̶u̶i̶t̶i̶v̶e̶ a̶n̶d̶ e̶a̶s̶y̶ t̶o̶ n̶a̶v̶i̶g̶a̶t̶e̶
 
-* Application user interface style is clean and polished
+* A̶p̶p̶l̶i̶c̶a̶t̶i̶o̶n̶ u̶s̶e̶r̶ i̶n̶t̶e̶r̶f̶a̶c̶e̶ s̶t̶y̶l̶e̶ i̶s̶ c̶l̶e̶a̶n̶ a̶n̶d̶ p̶o̶l̶i̶s̶h̶e̶d̶
 
-* Application resembles the mock-up functionality provided in the homework instructions
+* A̶p̶p̶l̶i̶c̶a̶t̶i̶o̶n̶ r̶e̶s̶e̶m̶b̶l̶e̶s̶ t̶h̶e̶ m̶o̶c̶k̶-̶u̶p̶ f̶u̶n̶c̶t̶i̶o̶n̶a̶l̶i̶t̶y̶ p̶r̶o̶v̶i̶d̶e̶d̶ i̶n̶ t̶h̶e̶ h̶o̶m̶e̶w̶o̶r̶k̶ i̶n̶s̶t̶r̶u̶c̶t̶i̶o̶n̶s̶
 
 ### Repository Quality: 13%
 
-* Repository has a unique name
+* R̶e̶p̶o̶s̶i̶t̶o̶r̶y̶ h̶a̶s̶ a̶ u̶n̶i̶q̶u̶e̶ n̶a̶m̶e̶
 
-* Repository follows best practices for file structure and naming conventions
+* R̶e̶p̶o̶s̶i̶t̶o̶r̶y̶ f̶o̶l̶l̶o̶w̶s̶ b̶e̶s̶t̶ p̶r̶a̶c̶t̶i̶c̶e̶s̶ f̶o̶r̶ f̶i̶l̶e̶ s̶t̶r̶u̶c̶t̶u̶r̶e̶ a̶n̶d̶ n̶a̶m̶i̶n̶g̶ c̶o̶n̶v̶e̶n̶t̶i̶o̶n̶s̶
 
-* Repository follows best practices for class/id naming conventions, indentation, quality comments, etc.
+* R̶e̶p̶o̶s̶i̶t̶o̶r̶y̶ f̶o̶l̶l̶o̶w̶s̶ b̶e̶s̶t̶ p̶r̶a̶c̶t̶i̶c̶e̶s̶ f̶o̶r̶ c̶l̶a̶s̶s̶/̶i̶d̶ n̶a̶m̶i̶n̶g̶ c̶o̶n̶v̶e̶n̶t̶i̶o̶n̶s̶,̶ i̶n̶d̶e̶n̶t̶a̶t̶i̶o̶n̶,̶ q̶u̶a̶l̶i̶t̶y̶ c̶o̶m̶m̶e̶n̶t̶s̶,̶ e̶t̶c̶.̶
 
-* Repository contains multiple descriptive commit messages
+* R̶e̶p̶o̶s̶i̶t̶o̶r̶y̶ c̶o̶n̶t̶a̶i̶n̶s̶ m̶u̶l̶t̶i̶p̶l̶e̶ d̶e̶s̶c̶r̶i̶p̶t̶i̶v̶e̶ c̶o̶m̶m̶i̶t̶ m̶e̶s̶s̶a̶g̶e̶s̶
 
 * Repository contains quality README file with description, screenshot, and link to deployed application
 
