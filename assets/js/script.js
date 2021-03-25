@@ -51,6 +51,8 @@ function displayCalendar() {
             descriptionEl.addClass('past');
         }
     }
+
+    printCalEvents();
 }
 
 function init() {
@@ -65,16 +67,17 @@ function saveCalEvent(event) {
     let sibs = btnClicked.siblings("textarea");
     let entry = sibs.val();
     let index = btnClicked.data().index;
-    // let index = parseInt(btnClicked.data);
-    // let i = 0;
-    // let entry = "Test"
-    // let index = 0;
-
-    console.log(entry, index);
 
     calEvents[index] = entry;
-    console.log(calEvents);
 
+    localStorage.setItem('calEvents', JSON.stringify(calEvents));
+
+}
+
+function printCalEvents() {
+    calEventsToPrint = JSON.parse(localStorage.getItem('calEvents'));
+
+    console.log(calEventsToPrint);
 }
 
 // // Event Listeners
