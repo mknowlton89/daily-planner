@@ -80,6 +80,10 @@ function saveCalEvent(event) {
 function printCalEvents() {
     calEvents = JSON.parse(localStorage.getItem('calEvents'));
 
+    if (calEvents == null) {
+        return;
+    }
+
     for (let i = 0; i < calEvents.length; i++) {
         let textarea = $("body").find("[data-index='" + i + "']");
 
