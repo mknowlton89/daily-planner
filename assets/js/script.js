@@ -9,8 +9,6 @@ const saveBtnEl = $('.saveBtn');
 const workHours = [9, 10, 11, 12, 13, 14, 15, 16, 17];
 let calEvents = [' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' '];
 
-console.log(calEvents);
-
 // Function Definitions
 function displayCalendar() {
     // For loop to create the blocks
@@ -82,16 +80,8 @@ function saveCalEvent(event) {
 function printCalEvents() {
     calEvents = JSON.parse(localStorage.getItem('calEvents'));
 
-    console.log("printCalEvents was called");
-
-    console.log(calEvents);
-
-
-
     for (let i = 0; i < calEvents.length; i++) {
         let textarea = $("body").find("[data-index='" + i + "']");
-
-        console.log(textarea);
 
         textarea.text(calEvents[i]);
     }

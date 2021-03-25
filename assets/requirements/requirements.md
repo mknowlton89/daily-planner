@@ -18,18 +18,18 @@ SO THAT I can manage my time effectively
 
 ```md
 GIVEN I am using a daily planner to create a schedule
-WHEN I open the planner
-THEN the current day is displayed at the top of the calendar
-WHEN I scroll down
-THEN I am presented with timeblocks for standard business hours
-WHEN I view the timeblocks for that day
-THEN each timeblock is color coded to indicate whether it is in the past, present, or future
-WHEN I click into a timeblock
-THEN I can enter an event
-WHEN I click the save button for that timeblock
-THEN the text for that event is saved in local storage
-WHEN I refresh the page
-THEN the saved events persist
+W̶H̶E̶N̶ I̶ o̶p̶e̶n̶ t̶h̶e̶ p̶l̶a̶n̶n̶e̶r̶
+T̶H̶E̶N̶ t̶h̶e̶ c̶u̶r̶r̶e̶n̶t̶ d̶a̶y̶ i̶s̶ d̶i̶s̶p̶l̶a̶y̶e̶d̶ a̶t̶ t̶h̶e̶ t̶o̶p̶ o̶f̶ t̶h̶e̶ c̶a̶l̶e̶n̶d̶a̶r̶
+W̶H̶E̶N̶ I̶ s̶c̶r̶o̶l̶l̶ d̶o̶w̶n̶
+T̶H̶E̶N̶ I̶ a̶m̶ p̶r̶e̶s̶e̶n̶t̶e̶d̶ w̶i̶t̶h̶ t̶i̶m̶e̶b̶l̶o̶c̶k̶s̶ f̶o̶r̶ s̶t̶a̶n̶d̶a̶r̶d̶ b̶u̶s̶i̶n̶e̶s̶s̶ h̶o̶u̶r̶s̶
+W̶H̶E̶N̶ I̶ v̶i̶e̶w̶ t̶h̶e̶ t̶i̶m̶e̶b̶l̶o̶c̶k̶s̶ f̶o̶r̶ t̶h̶a̶t̶ d̶a̶y̶
+T̶H̶E̶N̶ e̶a̶c̶h̶ t̶i̶m̶e̶b̶l̶o̶c̶k̶ i̶s̶ c̶o̶l̶o̶r̶ c̶o̶d̶e̶d̶ t̶o̶ i̶n̶d̶i̶c̶a̶t̶e̶ w̶h̶e̶t̶h̶e̶r̶ i̶t̶ i̶s̶ i̶n̶ t̶h̶e̶ p̶a̶s̶t̶,̶ p̶r̶e̶s̶e̶n̶t̶,̶ o̶r̶ f̶u̶t̶u̶r̶e̶
+W̶H̶E̶N̶ I̶ c̶l̶i̶c̶k̶ i̶n̶t̶o̶ a̶ t̶i̶m̶e̶b̶l̶o̶c̶k̶
+T̶H̶E̶N̶ I̶ c̶a̶n̶ e̶n̶t̶e̶r̶ a̶n̶ e̶v̶e̶n̶t̶
+W̶H̶E̶N̶ I̶ c̶l̶i̶c̶k̶ t̶h̶e̶ s̶a̶v̶e̶ b̶u̶t̶t̶o̶n̶ f̶o̶r̶ t̶h̶a̶t̶ t̶i̶m̶e̶b̶l̶o̶c̶k̶
+T̶H̶E̶N̶ t̶h̶e̶ t̶e̶x̶t̶ f̶o̶r̶ t̶h̶a̶t̶ e̶v̶e̶n̶t̶ i̶s̶ s̶a̶v̶e̶d̶ i̶n̶ l̶o̶c̶a̶l̶ s̶t̶o̶r̶a̶g̶e̶
+W̶H̶E̶N̶ I̶ r̶e̶f̶r̶e̶s̶h̶ t̶h̶e̶ p̶a̶g̶e̶
+T̶H̶E̶N̶ t̶h̶e̶ s̶a̶v̶e̶d̶ e̶v̶e̶n̶t̶s̶ p̶e̶r̶s̶i̶s̶t̶
 ```
 
 The following animation demonstrates the application functionality:
@@ -45,17 +45,17 @@ This homework is graded based on the following criteria:
 
 * Satisfies all of the above acceptance criteria plus the following:
 
-  * Uses a date utility library to work with date and time
+  * U̶s̶e̶s̶ a̶ d̶a̶t̶e̶ u̶t̶i̶l̶i̶t̶y̶ l̶i̶b̶r̶a̶r̶y̶ t̶o̶ w̶o̶r̶k̶ w̶i̶t̶h̶ d̶a̶t̶e̶ a̶n̶d̶ t̶i̶m̶e̶
 
 ### Deployment: 32%
 
-* Application deployed at live URL
+* A̶p̶p̶l̶i̶c̶a̶t̶i̶o̶n̶ d̶e̶p̶l̶o̶y̶e̶d̶ a̶t̶ l̶i̶v̶e̶ U̶R̶L̶
 
 * Application loads with no errors
 
-* Application GitHub URL submitted
+* A̶p̶p̶l̶i̶c̶a̶t̶i̶o̶n̶ G̶i̶t̶H̶u̶b̶ U̶R̶L̶ s̶u̶b̶m̶i̶t̶t̶e̶d̶
 
-* GitHub repo contains application code
+* G̶i̶t̶H̶u̶b̶ r̶e̶p̶o̶ c̶o̶n̶t̶a̶i̶n̶s̶ a̶p̶p̶l̶i̶c̶a̶t̶i̶o̶n̶ c̶o̶d̶e̶
 
 ### Application Quality: 15%
 
