@@ -7,7 +7,7 @@ const saveBtnEl = $('.saveBtn');
 
 // JS Variables
 const workHours = [9, 10, 11, 12, 13, 14, 15, 16, 17];
-let calEvents = [' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' '];
+let calEvents = ['', '', '', '', '', '', '', '', ''];
 
 // Function Definitions
 function displayCalendar() {
@@ -68,7 +68,7 @@ function saveCalEvent(event) {
     calEvents = JSON.parse(localStorage.getItem('calEvents'));
 
     if (calEvents == null) {
-        calEvents = [' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' '];
+        calEvents = ['', '', '', '', '', '', '', '', ''];
     }
 
     calEvents[index] = entry;
