@@ -28,7 +28,7 @@ function displayCalendar() {
         hourEl.addClass('hour text-right col-1');
         descriptionEl.addClass('description w-100 p-3 col-10');
         descriptionEl.attr("data-index", i);
-        saveBtnEl.attr("data-index", i);
+        saveBtnEl.attr("data-num", i);
         saveBtnEl.addClass('saveBtn col-1');
 
         // I need to add content to the elements
@@ -63,10 +63,15 @@ function init() {
 }
 
 function saveCalEvent(event) {
-    let btnClicked = $(event.target);
-    let sibs = btnClicked.siblings("textarea");
-    let entry = sibs.val();
-    let index = btnClicked.data().index;
+    const btnClicked = $(event.target);
+    const entry = btnClicked.siblings('textarea').val();
+    const index = btnClicked.data().num;
+
+    calEvents = JSON.parse(localStorage.getItem('calEvents'));
+
+    if (calEvents == null) {
+        calEvents = [' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' '];
+    }
 
     calEvents[index] = entry;
 
@@ -75,9 +80,21 @@ function saveCalEvent(event) {
 }
 
 function printCalEvents() {
-    calEventsToPrint = JSON.parse(localStorage.getItem('calEvents'));
+    calEvents = JSON.parse(localStorage.getItem('calEvents'));
 
-    console.log(calEventsToPrint);
+    console.log("printCalEvents was called");
+
+    console.log(calEvents);
+
+
+
+    for (let i = 0; i < calEvents.length; i++) {
+        let textarea = $("body").find("[data-index='" + i + "']");
+
+        console.log(textarea);
+
+        textarea.text(calEvents[i]);
+    }
 }
 
 // // Event Listeners
