@@ -2,6 +2,7 @@
 let currentDayEl = $('#currentDay');
 let currentHour = moment().format("H")
 let plannerEl = $('#planner');
+const saveBtnEl = $('.saveBtn');
 
 // JS Variables
 const workHours = [9, 10, 11, 12, 13, 14, 15, 16, 17];
@@ -23,6 +24,7 @@ function displayCalendar() {
         hourEl.addClass('hour text-right col-1');
         descriptionEl.addClass('description w-100 p-3 col-10');
         descriptionEl.attr("data-index", i);
+        saveBtnEl.attr("data-index", i);
         saveBtnEl.addClass('saveBtn col-1');
 
         // I need to add content to the elements
@@ -54,7 +56,27 @@ function init() {
     displayCalendar();
 }
 
-// Event Listeners
+function saveCalEvent(event) {
+    let btnClicked = $(event.target);
+    let sibs = btnClicked.siblings("textarea");
+    let entry = sibs.val();
+
+    let index = btnClicked.data();
+
+    // let calVal = btnClicked.sibling('textarea').value;
+
+    // console.log(calVal);
+
+    console.log(entry);
+    console.log(index);
+
+
+
+    //     // btnClicked.parent('div').remove();
+}
+
+// // Event Listeners
+plannerEl.on('click', '.saveBtn', saveCalEvent);
 
 // Function Calls
 init();
