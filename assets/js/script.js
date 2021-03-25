@@ -82,12 +82,13 @@ function printCalEvents() {
 
     if (calEvents == null) {
         return;
-    }
+    } else {
 
-    for (let i = 0; i < calEvents.length; i++) {
-        let textarea = $("body").find("[data-index='" + i + "']");
+        for (let i = 0; i < calEvents.length; i++) {
+            let textarea = $("body").find("[data-index='" + i + "']");
 
-        textarea.text(calEvents[i]);
+            textarea.text(calEvents[i]);
+        }
     }
 }
 
